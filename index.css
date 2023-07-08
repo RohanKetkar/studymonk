@@ -240,6 +240,7 @@ header.header{
     position:fixed;
     top:0;
     background-color:white;
-   height:15vh;
+   height:10
+       vh;
    width:100vw;
 }
