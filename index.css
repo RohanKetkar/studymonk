@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+body{
+    /*background-color:orange;*/
+    height:100vh;
+    width:100vw;
+    
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Bacasime Antique', serif;
+}
+.header{
+/* background-color:black; */
+display:flex;
+justify-content: space-between;
+padding:10px;
+/* color:white; */
+font:bold;
+
+
+}
+button{
+width:90px;
+height:30px;
+font-size:19px;
+margin-right:30px;
+cursor:pointer;
+background-color:white;
+color:black;
+border:none;
+border-radius:10px;
+border:1px solid rgb(223, 209, 183);
+font:bold;
+}
+button:hover{
+    background-color:black;
+    color:white;
+    transition:all 0.5s ease;
+}
+.main{
+display:flex;
+margin:40px;
+padding:60px;
+color:white;
+
+}
+.h3{
+    font-size:36px;
+width:540px;
+}
+.section{
+    background-color:rgb(26, 25, 25);
+}
+.ul{
+    font-size:19px;
+    padding:50px;
+    gap: 50px;
+    list-style:none;
+    display:grid;
+    color:royalblue;
+}
+.span{
+    color:gold;
+}
+.img{
+    border-radius:10%;
+    box-shadow:10px 10px 10px gold;
+}
+.img{
+box-shadow:-10px -10px 10px orange;
+animation: boxshadow infinite  2s ease-in-out 1s;
+}
+.logo{
+    width:30px;
+    
+}
+li{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+@keyframes boxshadow{
+    0%{
+box-shadow:10px 10px 10px rgb(226, 207, 95);
+
+    }
+    40%{
+        box-shadow:-10px -10px 10px rgb(242, 198, 116) ;
+        transform:scale(1.1);
+        border-radius:40%;
+        
+    }
+    70%{
+box-shadow:-10px 10px 10px rgb(119, 119, 215);
+    }
+}
+.main1{
+    color:white;
+    display:flex;
+    flex-direction:row-reverse;
+    margin-top:300px;
+    width:100vw;
+    justify-content:space-evenly;
+}
+.div{
+    width:90vw;
+    color:blue;
+    height:1px;
+    background-color:rgb(0, 234, 255);
+   margin:240px auto;
+   animation:boxshadoww infinite 1s;
+    position:relative;
+}
+.logow{
+   animation:boxshadowww infinite 2s ease-in-out;
+  
+   width:30px;
+   position:absolute;
+   margin-top:-30px;
+   border-radius:100%;
+}
+@keyframes boxshadoww{
+    0%{
+box-shadow:10px 10px 10px rgb(226, 207, 95);
+
+    }
+    40%{
+        box-shadow:-10px -10px 10px rgb(242, 198, 116) ;
+        /* transform:scale(1.1); */
+        border-radius:40%;
+        
+    }
+    70%{
+box-shadow:-10px 10px 10px rgb(119, 119, 215);
+    }
+}
+@keyframes boxshadowww{
+    0%{
+box-shadow:10px 10px 10px rgb(226, 207, 95);
+
+    }
+    40%{
+        box-shadow:-10px -10px 10px rgb(242, 198, 116) ;
+        transform:scale(1.1);
+        border-radius:40%;
+        transform:translateX(90vw)
+        
+    }
+    70%{
+box-shadow:-10px 10px 10px rgb(119, 119, 215);
+transform:translateX(80vw)
+    }
+}
+.ul1{
+    font-size:19px;
+    padding:50px;
+    gap: 30px;
+    list-style:none;
+    display:grid;
+    color:royalblue;
+}
+.h1{
+    color:rgb(14, 14, 14);
+    font-size:60px;
+    word-spacing: 10px;
+    background-color:white;
+    width:90vw;
+margin-top:150px;
+    
+}
+.feature{
+    display:flex;
+    justify-content:center;
+}
+.video{
+    width:480px;
+    margin-top:-353px ;
+    margin-left:86px;
+    position:absolute;
+    border-radius:30px;
+    
+}
+.videodiv{
+    position:relative;
+    width:580px;
+    margin-top:100px;
+    margin-left:400px;
+}
+.srcdiv{
+    position:absolute;
+    top:0;
+}
+.imgd{
+
+}
+.footer{
+background-color:white;
+font-size:30px;
+color:black;
+
+}
+.maindiv{
+    background-color:rgb(99, 156, 156);
+    width:100vw;
+    height:60vh;
+
+
+
+}
+.hide{
+    display:none;
+}
+.maindiv{
+    display:flex;
+    justify-content:center;
+    font-size:26px;
+padding:60px;
+margin:70px 10px;
+}
+#select, #search{
+    width:300px;
+    font-size:28px;
+}
+.mainh1{
+    color:orange;
+}
+.footer{
+    background-color:rgb(206, 86, 86);
+    height:10vh;
+    display:flex;
+    justify-content:center;
+}
+a{
+    text-decoration:none;
+}
+header.header{
+   
+    position:fixed;
+    top:0;
+    background-color:white;
+   height:15vh;
+   width:100vw;
+}
